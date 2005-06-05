@@ -4,12 +4,12 @@
 Summary:	Splashutils - emergence theme
 Summary(pl):	Splashutils - motyw emergence
 Name:		splashutils-theme-%{theme}
-Version:	1
+Version:	2
 Release:	1
 License:	GPL v2
 Group:		Themes
-Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-emergence-r1.tar.bz2
-# Source0-md5:	c6afab93416bc4c8fe8bc328d4e432a0
+Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-emergence-r%{version}.tar.bz2
+# Source0-md5:	53437014b3e4ddd2d72de7f6e88e1486
 Requires:	splashutils
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
