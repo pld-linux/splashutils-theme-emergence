@@ -2,7 +2,7 @@
 %define		theme	emergence
 
 Summary:	Splashutils - emergence theme
-Summary(pl.UTF-8):   Splashutils - motyw emergence
+Summary(pl.UTF-8):	Splashutils - motyw emergence
 Name:		splashutils-theme-%{theme}
 Version:	2
 Release:	1
