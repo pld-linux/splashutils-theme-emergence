@@ -2,7 +2,7 @@
 %define		theme	emergence
 
 Summary:	Splashutils - emergence theme
-Summary(pl):	Splashutils - motyw emergence
+Summary(pl.UTF-8):   Splashutils - motyw emergence
 Name:		splashutils-theme-%{theme}
 Version:	2
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Gentoo emergence theme for splashutils.
 
-%description -l pl
+%description -l pl.UTF-8
 Motyw gentoo emergence do splashutils.
 
 %prep
