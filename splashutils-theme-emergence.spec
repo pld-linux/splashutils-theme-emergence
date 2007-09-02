@@ -10,8 +10,8 @@ License:	GPL v2
 Group:		Themes
 Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-emergence-r%{version}.tar.bz2
 # Source0-md5:	53437014b3e4ddd2d72de7f6e88e1486
-Provides:	fbsplash-theme
 Requires:	splashutils
+Provides:	fbsplash-theme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
