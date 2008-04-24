@@ -1,6 +1,4 @@
-
 %define		theme	emergence
-
 Summary:	Splashutils - emergence theme
 Summary(pl.UTF-8):	Splashutils - motyw emergence
 Name:		splashutils-theme-%{theme}
@@ -12,6 +10,7 @@ Source0:	http://dev.gentoo.org/~spock/projects/gensplash/current/fbsplash-theme-
 # Source0-md5:	53437014b3e4ddd2d72de7f6e88e1486
 Requires:	splashutils
 Provides:	fbsplash-theme
+Provides:	splash-theme
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
